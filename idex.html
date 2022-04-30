@@ -1,0 +1,40 @@
+<html>
+    <head>
+       
+        <title></title>
+        
+    </head>
+    <Body>
+     <h1>My Console App</h1> <hr>
+     <p>My Name Is <span id="name"></span></p> 
+     <p>I have <span id="nl"></span> Characters In MY name</p>
+     <p>Open Console And View The Output</p>
+
+     <script>
+console.log("Hi This Is My new Console Screen");
+var Firstname="Dheerendra  ";
+var LastName="Romicherla";
+var fullname=Firstname.concat(LastName);
+console.log (fullname);
+document.getElementById("name").innerHTML=fullname;
+ var l=fullname.length;
+ document.getElementById("nl").innerHTML=l;
+ console.log(l);
+ var Name_1="i Like Video Games";
+ console.log(Name_1);
+ var replacename=Name_1.replace("Like","Love");
+ console.log(replacename);
+
+ console.log(Firstname.toLowerCase());
+ console.log(LastName.toLowerCase ());
+ var n1=16;
+ var n2=29;
+ console.log(n1+n2);
+ console.log(n1-n2);
+ console.log(Math.sqrt(n1));
+ console.log(Math.pow(n1,2));
+ 
+
+     </script>
+    </Body>
+</html>
